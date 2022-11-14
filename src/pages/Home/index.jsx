@@ -1,6 +1,6 @@
 // import { Header } from "../../components/Header/style";
 import React from "react";
-import { Header } from "../../components/Header/style";
+import { ContainerNavbar, Header, NavbarTopDiv } from "../../components/Header/style";
 // import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
@@ -14,12 +14,15 @@ export const Home = () => {
     return(
         <>
             <Header>
-                    <ol>
+                <ContainerNavbar>
+                    <NavbarTopDiv>
                         <li>HOME</li>
-                        <li>PORTFÓLIO</li>
+                        <li>PORTFÓLIO</li>                        
+                        <img src="" alt="logo Do Site" />
                         <li>SOBRE</li>
                         <li>LOGIN</li>
-                    </ol>
+                    </NavbarTopDiv>
+                </ContainerNavbar>
             </Header>
             <h1>HOME</h1>
         
