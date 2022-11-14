@@ -9,6 +9,15 @@ export const Header = styled.div`
     background-color: lightGray;
 `;
 
+export const logo = styled.image`
+  url
+`
+
+export const ContainerLogo = styled.div`
+  margin-left: 200px;
+  margin-right: 200px;
+`;
+
 export const ContainerNavbar = styled.div`
   display: none;
   position: fixed;
@@ -19,12 +28,27 @@ export const ContainerNavbar = styled.div`
 `;
 
 export const NavbarTopDiv = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 90px;
   display: none;
   display: flex;
   flex-direction: row;
-  justify-content: start;
   align-items: center;
-  padding-right: 20px;        
+  margin-right: 20px;
+  margin: auto;
+  list-style: none;  
+`;
+
+export const NavBarDireito = styled.div`
+  Justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+`;
+
+export const NavBarEsquerdo = styled.div`
+  Justify-content: start;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 `;
