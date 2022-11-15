@@ -6,6 +6,7 @@ import { ContainerLogo,
     NavbarTopDiv, 
     NavBarEsquerdo, 
     NavBarDireito } from "../../components/Header/style";
+    import {logoCentral} from "../../assets/691.png"
 // import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
@@ -27,7 +28,7 @@ export const Home = () => {
                         </NavBarEsquerdo>
                         <ContainerLogo>
                         <div className="d-flex justify-content-between">
-                            <img src="" alt="" />
+                            <img src={logoCentral} alt="" />
                         </div>
                         </ContainerLogo>
                         <NavBarDireito>
