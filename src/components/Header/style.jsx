@@ -9,10 +9,6 @@ export const Header = styled.div`
     background-color: lightGray;
 `;
 
-export const logo = styled.image`
-  url
-`
-
 export const ContainerLogo = styled.div`
   margin-left: 200px;
   margin-right: 200px;
