@@ -26,7 +26,7 @@ export const Home = () => {
                             <li>PORTFÓLIO</li>
                         </NavBarEsquerdo>
                         <ContainerLogo>
-                        <div className="d-flex justify-content-between"><img src={LogoNavBar} alt="logo Do Site"/></div>
+                        <div className="d-flex justify-content-between"><img src="" alt="logo Do Site"/></div>
                         </ContainerLogo>
                         <NavBarDireito>
                             <li>SOBRE</li>
