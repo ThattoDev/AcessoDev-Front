@@ -1,50 +1,64 @@
 import styled from 'styled-components';
 
 export const Header = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-block: 20px;
-    background-color: lightGray;
-`;
-
-export const ContainerLogo = styled.div`
-  margin-left: 200px;
-  margin-right: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;
+  background-color: lightgrey;
 `;
 
 export const ContainerNavbar = styled.div`
-  display: none;
   position: fixed;
-  z-index: 4;
-  @media (min-width: 1024px){
-    display: block;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+`;
+
+export const ButtonNav = styled.button`
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: lightgrey;
+  gap: 100px;
+  cursor: pointer;
+
+  :hover{
+    background-color: lightblue;
+
   }
 `;
 
-export const NavbarTopDiv = styled.div`
-  width: 100%;
-  height: 90px;
-  display: none;
+export const ContainerLogo = styled.div`
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-right: 20px;
-  margin: auto;
-  list-style: none;  
+  justify-content: center;
+  align-itens: center;
+  margin: 0 350px
+  
 `;
 
-export const NavBarDireito = styled.div`
-  Justify-content: flex-end;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
+export const P = styled.p`
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  color: red;
+  border-radius: 50%;
+  position: absolute;
+  justify-content: center;
+  top: -10px;
 `;
 
 export const NavBarEsquerdo = styled.div`
   Justify-content: start;
-  display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 100px;
+  display: flex;
+`;
+
+export const NavBarDireito = styled.div`
+  Justify-content: end;
+  flex-direction: row;
+  gap: 100px;
+  display: flex;
 `;
