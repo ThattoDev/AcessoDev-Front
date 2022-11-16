@@ -33,7 +33,7 @@ export const ButtonNav = styled.button`
 export const ContainerLogo = styled.div`
   display: flex;
   justify-content: center;
-  align-itens: center;
+  align-items: center;
   margin: 0 350px
   
 `;

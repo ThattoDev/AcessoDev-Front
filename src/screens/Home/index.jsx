@@ -35,8 +35,9 @@ export const Home = () => {
                     </NavBarDireito>
                 </ContainerNavbar>
             </Header>
-            <h1>HOME</h1>
-            
+            <a href="../login"> 
+                <h1>HOME</h1>
+            </a>
         
         </>
     )

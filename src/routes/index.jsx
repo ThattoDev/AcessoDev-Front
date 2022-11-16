@@ -1,7 +1,6 @@
 import { Route, BrowserRouter, Routes, Navigate, Outlet } from 'react-router-dom';
-import { Home } from '../pages/Home';
-// import { Login } from '../pages/Login';
-import { Contato } from '../pages/Contato';
+import { Home } from '../screens/Home';
+import { Login } from '../screens/Login';
 
 export const PrivateRoutes = () => {
   function isAuthenticated() {
@@ -24,7 +23,7 @@ export function Navigation() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
-        <Route path='/contato' element={<Contato />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
     </BrowserRouter>
 
